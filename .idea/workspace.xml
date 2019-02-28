@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e44ef8-61c8-4ec6-ad18-b9bf58fc09a0" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/assets/a_example.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/c_memorable_moments.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/d_pet_pictures.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/assets/e_shiny_selfies.txt" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jgrapht_jgrapht_core_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Hashcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Dataset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dataset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+=======
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hashcode/com/company/Dataset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hashcode/com/company/Dataset.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Hashcode/com/company/DatasetB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Hashcode/com/company/DatasetB.class" afterDir="false" />
@@ -15,6 +26,11 @@
       <change beforePath="$PROJECT_DIR$/src/com/company/Dataset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dataset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/SlideShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/SlideShow.java" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/com/company/Transition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Transition.java" afterDir="false" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,13 +44,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="180">
               <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="418">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+=======
+            <state relative-caret-position="228">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#376#377#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
+              </folding>
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
+=======
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/com/company/Image.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+=======
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
         <entry file="file://$PROJECT_DIR$/src/com/company/Dataset.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -93,19 +137,34 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/src/com/company/Dataset.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+              </folding>
+=======
         <entry file="file://$PROJECT_DIR$/src/com/company/Category.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Image.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,6 +174,7 @@
           </provider>
         </entry>
       </file>
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -132,12 +192,25 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/company/Kategorie.java" />
         <option value="$PROJECT_DIR$/src/com/company/Bild.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/com/company/Image.java" />
         <option value="$PROJECT_DIR$/src/com/company/Slide.java" />
         <option value="$PROJECT_DIR$/src/com/company/Transition.java" />
         <option value="$PROJECT_DIR$/src/com/company/SlideShow.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Dataset.java" />
+=======
+        <option value="$PROJECT_DIR$/src/com/company/Slide.java" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
+        <option value="$PROJECT_DIR$/src/com/company/Transition.java" />
+        <option value="$PROJECT_DIR$/src/com/company/SlideShow.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Image.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Dataset.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
       </list>
     </option>
   </component>
@@ -182,11 +255,19 @@
               <item name="hash-awesome-code" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Dataset.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="hash-awesome-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="hash-awesome-code" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Image.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Hashcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hashcode" type="462c0819:PsiDirectoryNode" />
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
@@ -199,10 +280,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551384364065" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+=======
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551385659911" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -262,14 +354,26 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18270677" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49893278" visible="true" weight="0.26622662" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5010672" side_tool="true" visible="true" weight="0.26622662" />
+      <window_info anchor="bottom" id="Messages" />
+=======
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49774435" visible="true" weight="0.32781956" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.32893288" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.32893288" />
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -295,10 +399,41 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Dataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/com/company/Transition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+=======
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
     <entry file="file://$PROJECT_DIR$/src/com/company/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
         </state>
       </provider>
     </entry>
@@ -309,6 +444,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/com/company/SlideShow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#135#142#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+=======
     <entry file="file://$PROJECT_DIR$/assets/b_lovely_landscapes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14724" />
@@ -320,17 +465,26 @@
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/com/company/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+=======
     <entry file="file://$PROJECT_DIR$/src/com/company/Slide.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/calculated/21_9_57">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -338,15 +492,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/com/company/Dataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="435">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+=======
+        <state relative-caret-position="192">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#206#218#0" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
             <element signature="e#250#251#0" expanded="true" />
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -377,5 +560,85 @@
         </state>
       </provider>
     </entry>
+=======
+=======
+>>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hashcode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.jgrapht:jgrapht-core:1.3.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+>>>>>>> fc99f9f48812fef5f57ee81b07805be0c236a6ba
   </component>
 </project>
