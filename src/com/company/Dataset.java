@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public abstract class Dataset {
-    public ArrayList<Image> images;
+    public ArrayList<Image> Images;
 
     public Dataset(String name){
         try {

@@ -18,6 +18,6 @@ class TestSlideshow extends SlideShow {
     }
 
     public void startAlgorithm(){
-
+        this.Dataset.Images.get(1).
     }
 }
