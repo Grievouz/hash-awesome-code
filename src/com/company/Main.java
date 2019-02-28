@@ -25,7 +25,6 @@ class TestSlideshow extends SlideShow {
         super(new DatasetB());
     }
 
-<<<<<<< HEAD
     public void startAlgorithm(){
         Graph<String, DefaultEdge> graph = new WeightedMultigraph<>(DefaultEdge.class);
         Map<String, ArrayList<Image>> categoryMap = new HashMap<>();
@@ -58,11 +57,5 @@ class TestSlideshow extends SlideShow {
                 }
             }
         }
-
-        this.Dataset.Images.
-=======
-    public void startAlgorithm() {
-        System.out.println("123");
->>>>>>> 0035ed3c38c7e58c05868a30d08a961c526fbfb6
     }
 }
