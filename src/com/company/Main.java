@@ -3,7 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    new TestSlideshow();
+	    var slideshow = new TestSlideshow();
+	    slideshow.startAlgorithm();
+	    slideshow.startEvaluation();
+
+	    slideshow.saveToFile();
     }
 }
 

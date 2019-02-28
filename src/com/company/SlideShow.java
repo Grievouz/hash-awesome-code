@@ -11,6 +11,7 @@ public abstract class SlideShow {
     }
 
     public void startEvaluation(){}
+    public void saveToFile(){}
 
     abstract void startAlgorithm();
 }
