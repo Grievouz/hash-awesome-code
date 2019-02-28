@@ -40,7 +40,7 @@ public abstract class Dataset {
                 categories.add(new Category(lineData[j]));
             }
 
-            var image = new Image(categories, lineData[0] == "H" ? ImageOrientations.Horizontal : ImageOrientations.Vertical);
+            var image = new Image(categories, lineData[0] == "H" ? ImageOrientations.Horizontal : ImageOrientations.Vertical, i);
 
             images.add(image);
         }
