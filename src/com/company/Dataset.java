@@ -13,7 +13,7 @@ public abstract class Dataset {
         
         for (int i = 1; i < this.Images.size(); i++) {
             if (Images.get(i).Orientation == ImageOrientations.Vertical) {
-                verticalImages.push(Images.get(i));
+                verticalImages.add(Images.get(i));
             }
         }
         
@@ -30,7 +30,7 @@ public abstract class Dataset {
 
             String content = new String(data, "UTF-8");
 
-            System.out.println(content);
+            this.Images = this.StringToImages(content);
 
         } catch (IOException exception){
             System.out.println(exception);
@@ -62,9 +62,32 @@ public abstract class Dataset {
 
 }
 
+class DatasetA extends  Dataset {
+    public DatasetA(){
+        super("a_example");
+    }
+}
 
 class DatasetB extends  Dataset {
     public DatasetB(){
         super("b_lovely_landscapes");
+    }
+}
+
+class DatasetC extends  Dataset {
+    public DatasetC(){
+        super("c_memorable_moments");
+    }
+}
+
+class DatasetD extends  Dataset {
+    public DatasetD(){
+        super("d_pet_pictures");
+    }
+}
+
+class DatasetE extends  Dataset {
+    public DatasetE(){
+        super("e_shiny_selfies");
     }
 }
