@@ -3,6 +3,17 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    new TestSlideshow();
+    }
+}
+
+
+class TestSlideshow extends SlideShow {
+    public TestSlideshow(){
+        super(new DatasetB());
+    }
+
+    public void startAlgorithm(){
+
     }
 }
