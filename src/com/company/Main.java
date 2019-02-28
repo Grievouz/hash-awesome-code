@@ -17,7 +17,7 @@ class TestSlideshow extends SlideShow {
         super(new DatasetB());
     }
 
-    public void startAlgorithm(){
-        this.Dataset.Images.get(1).
+    public void startAlgorithm() {
+        System.out.println("123");
     }
 }
