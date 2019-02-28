@@ -36,7 +36,7 @@ public abstract class SlideShow {
     }
 
     public String slideShowToString(){
-        var string = this.Slides.size()+ "n";
+        var string = this.Slides.size()+ "\n";
 
         for (int i = 0; i < this.Slides.size(); i++) {
             var slide = "";
