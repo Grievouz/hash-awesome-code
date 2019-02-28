@@ -1,7 +1,11 @@
 package com.company;
 
 import org.jgrapht.Graph;
+import org.jgrapht.alg.tour.ChristofidesThreeHalvesApproxMetricTSP;
+import org.jgrapht.alg.tour.HeldKarpTSP;
 import org.jgrapht.graph.DefaultEdge;
+import org.jgrapht.graph.DefaultWeightedEdge;
+import org.jgrapht.graph.SimpleWeightedGraph;
 import org.jgrapht.graph.WeightedMultigraph;
 
 import java.util.ArrayList;
@@ -11,11 +15,11 @@ import java.util.Map;
 public class Main {
 
     public static void main(String[] args) {
-	    var slideshow = new TestSlideshow();
-	    slideshow.startAlgorithm();
-	    slideshow.startEvaluation();
+        var slideshow = new TestSlideshow();
+        slideshow.startAlgorithm();
+        slideshow.startEvaluation();
 
-	    slideshow.saveToFile();
+        slideshow.saveToFile();
     }
 }
 
@@ -26,10 +30,12 @@ class TestSlideshow extends SlideShow {
     }
 
     public void startAlgorithm(){
-        Graph<String, DefaultEdge> graph = new WeightedMultigraph<>(DefaultEdge.class);
+        var graph = new SimpleWeightedGraph<>(DefaultWeightedEdge.class);
         Map<String, ArrayList<Image>> categoryMap = new HashMap<>();
 
         for (Image image : this.Dataset.Images){
+            graph.addVertex(image.Id.toString());
+
             for (Category category: image.Categories) {
                 if (!categoryMap.containsKey(category.Name))  {
                     categoryMap.put(category.Name, new ArrayList<>());
@@ -47,15 +53,17 @@ class TestSlideshow extends SlideShow {
                     if (i == j)
                         continue;
 
-                    new Transition(images.get(i), images.get(j));
-                }
-            }
-
-            for (Image baseImage: images) {
-                for (Image image: images) {
-
+                    Transition trans = new Transition(images.get(i), images.get(j));
+                    DefaultWeightedEdge e = graph.addEdge(images.get(i).Id.toString(), images.get(j).Id.toString());
+                    graph.setEdgeWeight(e, -trans.getScore());
                 }
             }
         }
+
+
+        var solver = new HeldKarpTSP();
+        var tour = solver.getTour(graph);
+
+        System.out.println(tour.toString());
     }
 }
