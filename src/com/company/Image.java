@@ -10,9 +10,10 @@ enum ImageOrientations {
 public class Image {
     public ArrayList<Category> Categories;
     public ImageOrientations Orientation;
-    public Integer Id;
+    public int Id;
 
-    public Image(ArrayList<Category> categories, ImageOrientations orientation, Integer id) {
+    public Image(ArrayList<Category> categories, ImageOrientations orientation, int id) {
+        this.Id = id;
         this.Categories = categories;
         this.Orientation = orientation;
     }

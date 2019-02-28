@@ -3,6 +3,8 @@ package com.company;
 import org.jgrapht.Graph;
 import org.jgrapht.alg.tour.ChristofidesThreeHalvesApproxMetricTSP;
 import org.jgrapht.alg.tour.HeldKarpTSP;
+import org.jgrapht.alg.tour.TwoApproxMetricTSP;
+import org.jgrapht.alg.tour.TwoOptHeuristicTSP;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.jgrapht.graph.SimpleWeightedGraph;
@@ -34,7 +36,7 @@ class TestSlideshow extends SlideShow {
         Map<String, ArrayList<Image>> categoryMap = new HashMap<>();
 
         for (Image image : this.Dataset.Images){
-            graph.addVertex(image.Id.toString());
+            graph.addVertex(image.Id + "");
 
             for (Category category: image.Categories) {
                 if (!categoryMap.containsKey(category.Name))  {
@@ -54,14 +56,16 @@ class TestSlideshow extends SlideShow {
                         continue;
 
                     Transition trans = new Transition(images.get(i), images.get(j));
-                    DefaultWeightedEdge e = graph.addEdge(images.get(i).Id.toString(), images.get(j).Id.toString());
-                    graph.setEdgeWeight(e, -trans.getScore());
+
+                    DefaultWeightedEdge e = graph.addEdge(images.get(i).Id + "", images.get(j).Id + "");
+                    if (e != null)
+                        graph.setEdgeWeight(e, -trans.getScore());
                 }
             }
         }
 
 
-        var solver = new HeldKarpTSP();
+        var solver = new ChristofidesThreeHalvesApproxMetricTSP();
         var tour = solver.getTour(graph);
 
         System.out.println(tour.toString());
