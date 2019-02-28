@@ -18,6 +18,5 @@ class TestSlideshow extends SlideShow {
     }
 
     public void startAlgorithm() {
-        System.out.println("123");
     }
 }
